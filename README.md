@@ -1,10 +1,3 @@
-Sử dụng dependency sau để thao tác với Reactive.
-<dependency>
-    <groupId>io.projectreactor</groupId>
-    <artifactId>reactor-core</artifactId>
-    <version>3.3.9.RELEASE</version>
-</dependency>
-
 ##### Start Code #######
 Flux<Integer> just = Flux.just(1, 2, 3, 4);
 FLux: để tạo ra nhiều emiter để cho các subcriber.
